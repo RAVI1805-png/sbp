@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+#navbar{
+
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 10rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+
+}
+
+.navbar .navbar-brand{
+
+font-size: 25px;
+font-weight:800;
+color: #29f700 !important;
+}
+
+
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid #29f700 ;
+}
+
+#navbarSupportedContent button{
+    background:#29f700;
+    width:12rem;
+    font-weight: bold;
+    border-radius:15px;
+}
+
+Section{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:Center;
+    align-items:Center;
+}
+/***  Home  ***/
+
+#home{
+    background: url(cosmetics.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction:column;
+
+
+
+}
+#home p{
+    font-size: 18px;
+    color:black
+}
+
+.signin{
+    background:green !important;
+    color:white !important;
+    box-shadow:2px 4px 5px rgba(0,0,0,.3)
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+/******About********/
+
+#about{
+    background: linear-gradient(to right,#ea1d6f, #eb466b 100%);
+}
+#about h1{
+font-weight:800;
+font-size:50px;
+color:white
+}
+
+#about p{
+    color:white;
+    
+}
+
+/******Service********/
+
+#service{
+    background: #e5e5e5;
+}
+#service h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#service img{
+    width:300px;
+    height:300px;
+}
+.card{
+    width:300px;
+    height:400px;
+    background: #e5e5e5 ! important;
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    margin:20px 60px;
+
+}
+/******Contact********/
+#contact h1{
+    font-weight:800;
+    font-size:50px;
+    color:black;
+    }
+#contact img{
+        width:500px;
+        height:100px;
+    }
+#contact p{
+        
+        font-size:50px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        color:red;
+
+}
+#contact p1{
+        
+    font-size:20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color:black
+
+
+}
